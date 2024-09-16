@@ -2,5 +2,6 @@
 
 console.log("Welcome to the imgPILLER - Your High quality Image Editing Software");
 
-var a = 67;
-var a = 39;
+document.getElementById('create-project').addEventListener('click', function(){
+    window.open('project-manager.html', '_parent')
+});
